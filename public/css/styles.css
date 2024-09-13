@@ -1,0 +1,142 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    line-height: 1.6; /* Improves readability */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    padding-top: 80px; /* Space for the fixed nav bar */
+}
+
+/* Full-Height Section for Centering */
+.full-height-section {
+    display: flex;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    width: 100%;
+    min-height: calc(100vh - 80px); /* Adjust height to account for the fixed nav bar */
+    max-width: 900px; /* Limit width for better readability */
+    padding: 40px 20px;
+    background-color: #111; /* Dark gray background for sections */
+    border-radius: 10px;
+    margin-bottom: 20px; /* Add some space between sections */
+}
+
+/* Navigation Bar */
+header nav {
+    display: flex;
+    justify-content: center; /* Centers the navigation items horizontally */
+    align-items: center;
+    padding: 20px;
+    background-color: #000; /* Keeps navigation background black */
+    width: 100%; /* Full-width navigation */
+    position: fixed; /* Keeps the nav bar fixed at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures the nav bar stays on top of other content */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+/* Align left items */
+.nav-left {
+    display: flex;
+    gap: 20px;
+}
+
+/* Align right items (social icons) */
+.nav-right {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* White text */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: plum; /* Orange hover effect */
+}
+
+/* About Section */
+.about-section h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    margin: 20px 0;
+}
+
+.profile-img {
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: 5px solid plum; /* Border matches the color scheme */
+}
+
+/* Experience Section */
+.experience-item {
+    padding: 20px;
+    background-color: #222; /* Dark gray for contrast */
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.experience-item h3 {
+    color: #fff;
+}
+
+.tag {
+    background-color: plum;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Contact Section */
+.contact-section .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: #000; /* Black text */
+    background-color: plum; /* Orange background */
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.contact-section .btn:hover {
+    opacity: 0.8; /* Slight opacity change on hover */
+}
+
+/* Footer (Optional) */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
