@@ -133,47 +133,44 @@ nav ul li a:hover {
 /* Experience Section */
 .experience-section {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Align items to the start (left side within the container) */
-    justify-content: center;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
     width: 100%;
     max-width: 900px; /* Limit the width for readability */
     padding: 40px 20px;
-    background-color: #111; /* Dark gray background for sections */
+    background-color: #000; /* Dark gray background for sections */
     border-radius: 10px;
-    margin-left: auto; /* Shift the section to the right */
-    margin-right: 20px; /* Add a small margin to the right for spacing */
-    margin-bottom: 20px; /* Space below the section */
-    text-align: left; /* Keep the text aligned to the left */
+    margin: 0 auto 20px; /* Center the section with margin auto */
 }
 
 /* Individual experience items */
 .experience-item {
-    width: 100%;
-    max-width: 700px;
+    width: 100%; /* Full width for the experience items */
+    max-width: 700px; /* Limit the width */
     padding: 20px;
-    background-color: #222;
+    background-color: #000; /* Dark gray for contrast */
     margin-bottom: 20px;
     border-radius: 10px;
-    text-align: left; /* Align text to the left */
+    text-align: center; /* Center text within the experience items */
 }
 
 .experience-item h3 {
-    color: #000;
+    color: #fff;
     margin-bottom: 10px;
 }
 
 .experience-item p {
-    color: #000;
+    color: #ddd; /* Lighter gray for better contrast */
 }
 
 /* H2 Title */
 .experience-section h2 {
     font-size: 48px;
-    color: #000;
+    color: #fff;
     margin-bottom: 20px;
     text-transform: uppercase;
-    text-align: left; /* Keep the heading aligned to the left */
+    text-align: center; /* Center the heading text */
 }
 
 
@@ -181,7 +178,7 @@ nav ul li a:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #000;
+    background-color: #fff;
     width: 100%;
     position: fixed;
     bottom: 0;
