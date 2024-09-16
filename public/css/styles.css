@@ -219,7 +219,7 @@ nav ul li a:hover {
     margin: 10px;
     text-decoration: none;
     color: #000; /* Black text for contrast */
-    background-color: plum; /* Match the theme color */
+    background-color: white; /* Match the theme color */
     border-radius: 5px;
     transition: opacity 0.3s;
 }
