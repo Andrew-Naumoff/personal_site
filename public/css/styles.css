@@ -130,6 +130,50 @@ nav ul li a:hover {
     opacity: 0.8; /* Slight opacity change on hover */
 }
 
+/* Experience Section */
+.experience-section {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    width: 100%;
+    max-width: 900px; /* Limit the width for readability */
+    padding: 40px 20px;
+    background-color: #111; /* Dark gray background for sections */
+    border-radius: 10px;
+    margin: 0 auto 20px; /* Center the section with margin auto */
+}
+
+/* Individual experience items */
+.experience-item {
+    width: 100%; /* Full width for the experience items */
+    max-width: 700px; /* Limit the width */
+    padding: 20px;
+    background-color: #222; /* Dark gray for contrast */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center; /* Center text within the experience items */
+}
+
+.experience-item h3 {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.experience-item p {
+    color: #ddd; /* Lighter gray for better contrast */
+}
+
+/* H2 Title */
+.experience-section h2 {
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center; /* Center the heading text */
+}
+
+
 /* Footer (Optional) */
 footer {
     text-align: center;
