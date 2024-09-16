@@ -173,6 +173,48 @@ nav ul li a:hover {
     text-align: center; /* Center the heading text */
 }
 
+/* Contact Section */
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    justify-content: center;
+    width: 100%;
+    max-width: 900px; /* Limit the width for readability */
+    padding: 40px 20px;
+    background-color: #111; /* Dark gray background */
+    border-radius: 10px;
+    margin-right: auto; /* Shift the section to the left */
+    margin-left: 20px; /* Add small left margin for spacing */
+    margin-bottom: 20px;
+    text-align: left; /* Ensure text is left-aligned */
+}
+
+/* H2 Title in Contact Section */
+#contact h2 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: left; /* Keep the heading left-aligned */
+}
+
+/* Contact paragraph and link */
+#contact p {
+    color: #ddd; /* Lighter gray for readability */
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: plum; /* Match the color scheme for links */
+    text-decoration: none;
+}
+
+#contact a:hover {
+    opacity: 0.8; /* Slight opacity change on hover */
+}
+
+
 
 /* Footer (Optional) */
 footer {
