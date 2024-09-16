@@ -190,10 +190,11 @@ nav ul li a:hover {
 
 /* H2 Title in Contact Section */
 #contact h2 {
-    font-size: 48px; /* Same size as other section headings */
+    font-size: 36px; /* Reduced font size for a smaller title */
     color: #fff; /* White text for consistency */
     margin-bottom: 20px;
     text-transform: uppercase; /* Same text transformation as other section headings */
+    text-align: center; /* Center the heading */
 }
 
 /* Contact paragraph and link */
@@ -203,7 +204,7 @@ nav ul li a:hover {
 }
 
 #contact a {
-    color: plum; /* Keep the link color consistent with the color scheme */
+    color: white; /* Keep the link color consistent with the color scheme */
     text-decoration: none;
 }
 
