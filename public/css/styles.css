@@ -199,12 +199,12 @@ nav ul li a:hover {
 
 /* Contact paragraph and link */
 #contact p {
-    color: plum; /* Lighter gray for readability, matching the other sections */
+    color: white; /* Lighter gray for readability, matching the other sections */
     margin-bottom: 10px;
 }
 
 #contact a {
-    color: white; /* Keep the link color consistent with the color scheme */
+    color: plum; /* Keep the link color consistent with the color scheme */
     text-decoration: none;
 }
 
