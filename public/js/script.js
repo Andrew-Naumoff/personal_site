@@ -9,11 +9,15 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 function filterReviews(type) {
     var reviews = document.querySelectorAll('.review-item');
-    reviews.forEach(review => {
-        if (review.querySelector('p').innerText.includes(type)) {
+
+    reviews.forEach(function(review) {
+        if (type === 'all') {
+            review.style.display = 'block';
+        } else if (review.getAttribute('data-type') === type) {
             review.style.display = 'block';
         } else {
             review.style.display = 'none';
         }
     });
 }
+
