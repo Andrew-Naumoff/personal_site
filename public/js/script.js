@@ -6,3 +6,14 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+function filterReviews(type) {
+    var reviews = document.querySelectorAll('.review-item');
+    reviews.forEach(review => {
+        if (review.querySelector('p').innerText.includes(type)) {
+            review.style.display = 'block';
+        } else {
+            review.style.display = 'none';
+        }
+    });
+}

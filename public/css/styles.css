@@ -250,6 +250,31 @@ h2 {
     }
 }
 
+#reviews {
+    padding: 40px 20px;
+    background-color: #111;
+    color: #fff;
+}
+
+.review-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.review-item {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.review-item:hover {
+    transform: scale(1.05);
+}
+
+
 
 
 /* Footer (Optional) */
